@@ -1,0 +1,29 @@
+# --- ความปลอดภัย (สำคัญที่สุด) ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# --- Airflow Logs (ไม่ต้องเก็บ Log เก่าๆ) ---
+logs/
+plugins/__pycache__/
+dags/__pycache__/
+
+# --- IDE Settings (การตั้งค่าส่วนตัวของโปรแกรมเขียนโค้ด) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
