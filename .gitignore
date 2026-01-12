@@ -1,4 +1,4 @@
-# --- ความปลอดภัย (สำคัญที่สุด) ---
+# --- Security  ---
 .env
 .env.*
 *.pem
@@ -14,12 +14,12 @@ env/
 venv/
 .venv/
 
-# --- Airflow Logs (ไม่ต้องเก็บ Log เก่าๆ) ---
+# --- Airflow Logs  ---
 logs/
 plugins/__pycache__/
 dags/__pycache__/
 
-# --- IDE Settings (การตั้งค่าส่วนตัวของโปรแกรมเขียนโค้ด) ---
+# --- IDE Settings  ---
 .vscode/
 .idea/
 *.swp
